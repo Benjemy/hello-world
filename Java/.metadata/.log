@@ -1,0 +1,356 @@
+!SESSION 2017-03-19 15:50:18.916 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-19 15:50:23.102
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-03-24 12:37:04.854 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-24 12:37:05.948
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-03-26 19:04:41.473 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-26 19:04:42.612
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-03-28 09:56:58.921 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-28 09:56:59.989
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-04-15 08:24:53.620 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-04-15 08:24:54.597
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-04-18 10:01:46.688 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-04-18 10:01:48.037
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-04-18 11:22:00.512 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-04-18 11:22:01.893
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-04-23 23:36:38.777 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-04-23 23:36:40.205
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-04-24 07:06:04.816 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-04-24 07:11:11.324
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43ECF1C\banking.
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-04-24 07:11:11.355
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43ECF1C\banking.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43ECF1C\banking.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at org.eclipse.ui.wizards.datatransfer.FileStoreStructureProvider.getContents(FileStoreStructureProvider.java:70)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:539)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:713)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:642)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1286)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1683)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1675)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$5.execute(CopyFilesAndFoldersOperation.java:800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Users\HiWin10\AppData\Local\Temp\7zEC43ECF1C\banking (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 16 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2017-04-24 07:11:11.355
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43ECF1C\banking.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\HiWin10\AppData\Local\Temp\7zEC43ECF1C\banking (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at org.eclipse.ui.wizards.datatransfer.FileStoreStructureProvider.getContents(FileStoreStructureProvider.java:70)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:539)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:713)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:642)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1286)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1683)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1675)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$5.execute(CopyFilesAndFoldersOperation.java:800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-04-24 07:12:26.863
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43B706D\Bank.java.
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-04-24 07:12:26.863
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43B706D\Bank.java.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43B706D\Bank.java.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at org.eclipse.ui.wizards.datatransfer.FileStoreStructureProvider.getContents(FileStoreStructureProvider.java:70)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:539)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:713)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:642)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1286)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1683)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1675)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$5.execute(CopyFilesAndFoldersOperation.java:800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Users\HiWin10\AppData\Local\Temp\7zEC43B706D\Bank.java (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 16 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2017-04-24 07:12:26.863
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43B706D\Bank.java.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\HiWin10\AppData\Local\Temp\7zEC43B706D\Bank.java (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at org.eclipse.ui.wizards.datatransfer.FileStoreStructureProvider.getContents(FileStoreStructureProvider.java:70)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:539)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:713)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:642)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1286)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1683)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1675)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$5.execute(CopyFilesAndFoldersOperation.java:800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-04-24 07:12:33.879
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43D924D\Account.java.
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-04-24 07:12:33.879
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43D924D\Account.java.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43D924D\Account.java.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at org.eclipse.ui.wizards.datatransfer.FileStoreStructureProvider.getContents(FileStoreStructureProvider.java:70)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:539)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:713)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:642)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1286)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1683)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1675)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$5.execute(CopyFilesAndFoldersOperation.java:800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.FileNotFoundException: C:\Users\HiWin10\AppData\Local\Temp\7zEC43D924D\Account.java (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 16 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2017-04-24 07:12:33.879
+!MESSAGE File not found: C:\Users\HiWin10\AppData\Local\Temp\7zEC43D924D\Account.java.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\HiWin10\AppData\Local\Temp\7zEC43D924D\Account.java (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at org.eclipse.ui.wizards.datatransfer.FileStoreStructureProvider.getContents(FileStoreStructureProvider.java:70)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:539)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:713)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:642)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.performFileImport(CopyFilesAndFoldersOperation.java:1286)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.copyFileStores(CopyFilesAndFoldersOperation.java:1683)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation.access$2(CopyFilesAndFoldersOperation.java:1675)
+	at org.eclipse.ui.actions.CopyFilesAndFoldersOperation$5.execute(CopyFilesAndFoldersOperation.java:800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2017-05-02 10:01:42.517 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-05-02 10:01:43.551
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2017-05-16 10:05:23.110 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.7.0_75
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-05-16 20:17:20.593
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/java1/bin/Worker.class'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:285)
+	at org.eclipse.core.internal.resources.File.create(File.java:121)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:844)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:823)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:187)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:504)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:270)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:193)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2017-05-16 20:17:20.646
+!MESSAGE A resource exists with a different case: '/java1/bin/Worker.class'.
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-05-16 20:29:45.259
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/java1/bin/Worker.class'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:285)
+	at org.eclipse.core.internal.resources.File.create(File.java:121)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:844)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:823)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:187)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:504)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:178)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:60)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:270)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:193)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:218)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:360)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:523)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:502)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:94)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate$1.run(LaunchConfigurationDelegate.java:423)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:430)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:126)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:821)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2017-05-16 20:29:45.260
+!MESSAGE A resource exists with a different case: '/java1/bin/Worker.class'.
+!SESSION 2017-06-29 15:18:49.107 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 1 1 2017-06-29 15:19:18.197
+!MESSAGE Workbench migration started
+
+!ENTRY org.eclipse.ui 1 1 2017-06-29 15:19:20.512
+!MESSAGE Workbench migration finished
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-29 15:19:28.307
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HiWin10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2017-06-29 15:19:28.357
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error '²»ÄÜÏÂÔشúÀí·þÎñÆ÷×Զ¯ÅäÖ' #12167.

@@ -1,0 +1,17 @@
+import javax.swing.*;
+public class FirstFrame extends JFrame {
+	FirstFrame(){
+		setTitle("我的第一个GUI");
+		setBounds(300,200,300,200);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		btn=new JButton("按钮");
+		add(btn);
+	}
+	private JButton btn;
+}
+public class FirstDemo{
+	public static void main(String[] args){
+		FirstFrame frm=new FirstFrame();
+		frm.setVisible(true);
+	}
+}

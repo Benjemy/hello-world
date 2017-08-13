@@ -1,0 +1,61 @@
+
+public class test2 {
+	public static void main(String[] args) {
+		 student stu[]=new student[5];
+		   stu[0]=new student("8604","zhang","male",19,78.0f);
+		   stu[1]=new student("8605","he","male",18,80.0f);
+		   stu[2]=new student("8606","huo","female",19,81.0f);
+		   stu[3]=new student("8607","feng","female",19,82.0f);
+		   stu[4]=new student("8608","wang","female",17,82.5f);
+		  
+		 for(int i=0;i<stu.length;i++)
+			 System.out.println(stu[i].getNo()+" "+stu[i].getName()+" "+stu[i].getSex()+" "+stu[i].getAge()+" "+stu[i].getJava());
+//		 System.out.println("stu1:no "+stu1.getNo()+" name "+stu1.getName()+" sex "+stu1.getSex()+" age "+stu1.getAge()+" java "+stu1.getJava());
+//		 System.out.println("stu2:no "+stu2.getNo()+" name "+stu2.getName()+" sex "+stu2.getSex()+" age "+stu2.getAge()+" java "+stu2.getJava());
+//		 System.out.println("stu3:no "+stu3.getNo()+" name "+stu3.getName()+" sex "+stu3.getSex()+" age "+stu3.getAge()+" java "+stu3.getJava());
+//		 System.out.println("stu4:no "+stu4.getNo()+" name "+stu4.getName()+" sex "+stu4.getSex()+" age "+stu4.getAge()+" java "+stu4.getJava());
+//		 System.out.println("stu5:no "+stu5.getNo()+" name "+stu5.getName()+" sex "+stu5.getSex()+" age "+stu5.getAge()+" java "+stu5.getJava());
+		 float max=stu[0].getJava();
+		 for(int j=1;j<stu.length;j++)
+			 if(stu[j].getJava()>max)
+				 max=stu[j].getJava();
+		 System.out.println(max);
+		 float min=stu[0].getJava();
+		 for(int z=0;z<stu.length;z++)
+			 if(stu[z].getJava()<stu[0].getJava())
+				 min=stu[z].getJava();
+		 System.out.println(min);
+		 float ave=(stu[0].getJava()+stu[1].getJava()+stu[2].getJava()+stu[3].getJava()+stu[4].getJava())/5;
+		 System.out.println(ave);
+	}
+} 
+class student{
+	private String sNo;
+	private String sName;
+	private String sSex;
+	private int sAge;
+	private float sJava;
+	public student(String sNo,String sName,String sSex,int sAge,float sJava){
+		this.sNo=sNo;
+		this.sName=sName;
+		this.sSex=sSex;
+		this.sAge=sAge;
+		this.sJava=sJava;
+	}
+	public String getNo(){
+		return this.sNo;
+	}
+	public String getName(){
+	    return this.sName;
+	    
+	}
+	public String getSex(){
+		return this.sSex;
+	}
+	public int getAge(){
+		return this.sAge;
+	}
+	public float getJava(){
+		return this.sJava;
+	}
+}

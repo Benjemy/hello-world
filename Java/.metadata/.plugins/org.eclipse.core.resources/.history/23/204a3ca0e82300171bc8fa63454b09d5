@@ -1,0 +1,58 @@
+abstract class shape{
+	private String name;
+	public shape(String n){name=n;}
+	public abstract double area();
+	public abstract double perimeter();
+	public String getName() {	return name;	}
+	public void setName(String name) {		this.name = name;	}
+}
+class Circle extends shape{
+	private int r;
+    
+	 public Circle(int r) {
+		super(null);
+		this.r = r;
+	}
+
+	public double area() {
+		 
+		return 3.14*r*r;
+	}
+
+	public double perimeter() {
+		// TODO Auto-generated method stub
+		return 2*3.14*r;
+	}
+}
+class Rectangle extends shape{
+	private int l;
+	private int w;
+	 
+	public Rectangle(int l, int w) {
+		super(null);
+		this.l = l;
+		this.w = w;
+	}
+	public double area() {
+		// TODO Auto-generated method stub
+		return l*w;
+	}
+	public double perimeter() {
+		// TODO Auto-generated method stub
+		return 2*(l+w);
+	}
+
+}
+public class testshape {
+	public static void main(String[] args) {
+		 shape s[]={new Circle(1),new Circle(2),
+				    new Rectangle(3,4),new Rectangle(5,6)};
+		 double totalarea=0,totalperimeter=0;
+		 for(int i=0;i<s.length;i++){
+			 totalarea+=s[i].area();
+		     totalperimeter+=s[i].perimeter();
+	     }
+		 System.out.println("总面积="+totalarea);			 
+		 System.out.println("总周长="+totalperimeter);	
+	}
+}
